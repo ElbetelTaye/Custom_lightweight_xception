@@ -28,4 +28,4 @@ Below is the modified model architecture of the custom lightweight xception mode
     # Exit Flow
     x = SeparableConv2D(256, (3, 3), activation='relu', padding='same')(x)
     x = GlobalAveragePooling2D()(x)
-![image](https://github.com/ElbetelTaye/lightweight_xception/assets/119397613/bd6029d2-6994-4b0e-b16f-5320d6b289e9)
+
